@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Marcos",
+      "lastName": "Gomez",
+      "cellphone": "999234156",
+      "password": "12345",
+      "email": "marcogomez@hotmail.com",
+      "address": "Jr. La Mar 23",
+      "rol": "c"
+    },
+    {
+      "id": 2,
+      "name": "Carlos",
+      "lastName": "Ramirez",
+      "cellphone": "926852156",
+      "password": "12345",
+      "email": "carlorez@hotmail.com",
+      "address": "Jr. Manco Capac 23",
+      "rol": "t"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Licuadora",
+      "url": "https://media.discordapp.net/attachments/1009300488572915786/1036059996309422100/licuadora.jpg?width=840&height=473"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "name": "Hervidora",
+      "url": "https://media.discordapp.net/attachments/1009300488572915786/1036060147266637854/hervidora.jpg"
+    },
+    {
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "name": "Nosequees",
+      "url": "qweasdad",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "name": "PlanchaPelo",
+      "url": "https://imagenes.elpais.com/resizer/56ITv_QNP_ehzM9fr7qalrhBqok=/1960x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/UHZNVMNTW4GHRS7IVYFX3YBIIM.jpg",
+      "id": 5
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "userId": 1,
+      "technicianId": 2,
+      "description": "Mi hervidora no calienta, a pesar de que la enchufe"
+    },
+    {
+      "userId": 1,
+      "technicianId": 1,
+      "description": "sdasd",
+      "id": 2
+    }
+  ]
+}
